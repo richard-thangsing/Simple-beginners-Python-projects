@@ -1,7 +1,7 @@
 #This is a basic calculator using Python
 
 number1 = int(input('Enter a number: ')) #we use the input function to enter both our numbers
-number2 = int(input('Enter another number: ')) # prefixing it with the int(integer),
+number2 = int(input('Enter another number: ')) # prefixing it with the int(integer) function,
 # our inputs will only take integers as values
 
 sum = number1 + number2
