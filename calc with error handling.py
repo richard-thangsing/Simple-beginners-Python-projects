@@ -9,7 +9,7 @@ elif op == '-':
 elif op == '*':
     print(num1 * num2)
 elif op == '/':
-    if num2 != 0: # this checks if the 2nd no is 0 or not since we can divide a number by zero
+    if num2 != 0: # this checks if the 2nd no is 0 or not since we can't divide a number by zero
         print(num1 / num2)
     else:
         print('ZeroDivisionError')
